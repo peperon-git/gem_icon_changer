@@ -1,0 +1,27 @@
+.gem-icon-customizer-target {
+  background-image: var(--gem-icon-customizer-image) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  border-radius: 50% !important;
+  color: transparent !important;
+  overflow: hidden !important;
+}
+
+.gem-icon-customizer-target *,
+.gem-icon-customizer-target::before,
+.gem-icon-customizer-target::after {
+  opacity: 0 !important;
+}
+
+bot-logo.gem-icon-customizer-target {
+  display: inline-flex !important;
+  flex: 0 0 auto !important;
+  --bot-logo-bg: transparent !important;
+  --bot-logo-border: transparent !important;
+  --bot-logo-text: transparent !important;
+}
+
+img.gem-icon-customizer-target {
+  object-fit: cover !important;
+}
